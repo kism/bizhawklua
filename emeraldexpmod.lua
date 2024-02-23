@@ -32,8 +32,8 @@ while true do
         -- Write Both Addresses, I had a reason for this that I forgot, works fine
         memory.write_s16_le(tonumber("0x0241F0"),newxp)
         memory.write_s16_le(tonumber("0x022F7C"),newxp)
-		-- memory.write_s16_le(tonumber("0x02309C"),newxp) -- Related to xp but cursed
-		-- memory.write_s16_le(tonumber("0x000060"),newxp) -- Related to xp but cursed
+	-- memory.write_s16_le(tonumber("0x02309C"),newxp) -- Related to xp but cursed
+	-- memory.write_s16_le(tonumber("0x000060"),newxp) -- Related to xp but cursed
 
     end
     
