@@ -6,12 +6,12 @@ function print_everywhere(message)
     gui.addmessage(message)
 end
 
-console.log("XPMod: Starting")
+console.log("ExpMod: Starting")
 -- console.log(memory.getmemorydomainlist())
 -- console.log("Expecting: EWRAM")
 memory.usememorydomain("EWRAM")
 -- console.log("Got: " .. memory.getcurrentmemorydomain())
-console.log("XPMod: Loaded!")
+console.log("ExpMod: Loaded!")
 
 while true do
 	-- Get the values of the ram addresses for... 
