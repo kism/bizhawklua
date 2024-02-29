@@ -23,7 +23,7 @@ while true do
         newxp = xpgain * expmultiplier
         -- Pokemon exp gain is a signed int for whatever reason
         -- We don't want to accidently have a negative number
-        if newxp < 0 or newxp > 32767 then
+        if newxp < 1 or newxp > 32767 then
             print_everywhere("Exp overflow, setting to max value")
             newxp = 32767
         end
